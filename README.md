@@ -5,6 +5,6 @@ This project implements and evaluates a ride sharing algorithm on spatio-tempora
 To run the project:
 - Use the following link to download data.zip and data.json.zip files : https://drive.google.com/drive/folders/1UEKJxXztT7Fft712kjXeZxrbGLEXkOZa?usp=sharing
 - Unzip the data.zip and data.json.zip file to obtain the data folder and data.json file. Place them in the same directory as that of the other two Python notebooks
-- Create a locate MySQL database and also a table to store the processed data. The schema for the table is mentioned in the Database.ipynb notebook
+- Create a local MySQL database and also a table to store the processed data. The schema for the table is mentioned in the Database.ipynb notebook
 - Run the Database.ipynb notebook first which essentialy takes all the trips data month by month and performs the preprocessing steps. It also finally stores the processed data in the table created in above step.
 - Run the DBMS-ride-sharing-final.ipynb notebook in a sequential manner using the instructions provided within the notebook to get the merged rides output.
